@@ -1,0 +1,22 @@
+{
+  "fields" : [
+    {"name":"city_id", "type": ["attribute"], "attribute" : {"name" : "city_id", "type": "bigint"}},
+    {"name":"city_name", "type":["attribute","displayText"], "attribute" : { "name" :  "city_name", "type" :  "string"}, "displayName" :  "Город"},
+    {"name":"pnt_id", "type":["attribute"], "attribute" : {"name" : "eqm_id", "type": "bigint"}},
+    {"name":"pnt_type_name", "type":["displayText"], "displayName" :  "Наименование"},
+    {"name":"pnt_name", "type":["skip"]},
+    {"name":"remark", "type":["skip"]},
+    {"name":"project_type_name", "type":["skip"]},
+    {"name":"project_name", "type":["attribute","displayText"], "attribute" :  {"name" :  "objects_group", "type": "string"}, "displayName" :  "Проект"},
+    {"name":"create_date", "type":["displayText"], "displayName" :  "Создана"},
+    {"name":"street_name", "type":["skip"]},
+    {"name":"tc_number", "type":["skip"]},
+    {"name":"ref_supp_org", "type":["displayText"], "displayName" :  "Собственник"},
+    {"name":"rent", "type":["skip"]},
+    {"name":"ustanovlena_legalno", "type":["skip"]},
+    {"name":"cab_named", "type":["displayText"], "displayName" :  "Трасса"},
+    {"name":"latitude", "type": ["attribute"], "attribute" : {"name" : "latitude", "type": "bigdecimal"}},
+    {"name":"longitude", "type": ["attribute"], "attribute" : {"name" : "longitude", "type": "bigdecimal"}},
+    {"name":"eo_sap_code", "type": ["attribute"], "attribute" : {"name" : "eo_sap_code", "type": "bigint"}}
+  ]
+}

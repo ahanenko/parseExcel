@@ -1,0 +1,28 @@
+{
+  "fields" : [
+    {"name":"city_id", "type": ["attribute"], "attribute" : {"name" : "city_id", "type": "bigint"}},
+    {"name":"city_name", "type":["attribute","displayText"], "attribute" : { "name" :  "city_name", "type" :  "string"}, "displayName" :  "Город"},
+    {"name":"eqm_id", "type":["attribute"], "attribute" : {"name" : "eqm_id", "type": "bigint"}},
+    {"name":"cross_name", "type":["skip"]},
+    {"name":"crs_type_name", "type":["displayText"], "displayName" :  "Тип"},
+    {"name":"create_date", "type":["skip"]},
+    {"name":"remark", "type":["skip"]},
+    {"name":"name_new", "type":["displayText"], "displayName" :  "Название"},
+    {"name":"group_name", "type":["attribute","displayText"], "attribute" :  {"name" :  "objects_group", "type": "string"}, "displayName" :  "Группа"},
+    {"name":"address", "type":["skip"]},
+    {"name":"tip_mufty", "type":["skip"]},
+    {"name":"mesto_ustanovki", "type":["displayText"], "displayName" :  "Размещение"},
+    {"name":"data_ustanovki", "type":["skip"]},
+    {"name":"serijnyj_nomer", "type":["skip"]},
+    {"name":"rent", "type":["skip"]},
+    {"name":"old_name", "type":["skip"]},
+    {"name":"mufta_remontnaya_", "type":["displayText"], "displayName" :  "Ремонтная"},
+    {"name":"project", "type":["skip"]},
+    {"name":"company_name", "type":["skip"]},
+    {"name":"old_serial", "type":["skip"]},
+    {"name":"influence_214", "type":["skip"]},
+    {"name":"latitude", "type": ["attribute"], "attribute" : {"name" : "latitude", "type": "bigdecimal"}},
+    {"name":"longitude", "type": ["attribute"], "attribute" : {"name" : "longitude", "type": "bigdecimal"}},
+    {"name":"eo_sap_code", "type": ["attribute"], "attribute" : {"name" : "eo_sap_code", "type": "bigint"}}
+  ]
+}
